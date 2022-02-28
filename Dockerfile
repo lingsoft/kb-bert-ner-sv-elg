@@ -22,7 +22,7 @@ COPY --chown=elg:elg app.py utils.py docker-entrypoint.sh local_kb_bert_ner /elg
 
 ENV PATH="/opt/venv/bin:$PATH"
 ENV WORKERS=2
-ENV TIMEOUT=30
+ENV TIMEOUT=240
 ENV WORKER_CLASS=sync
 ENV LOGURU_LEVEL=INFO
 ENV PYTHON_PATH="/opt/venv/bin"
