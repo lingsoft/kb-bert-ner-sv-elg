@@ -5,8 +5,9 @@ from elg.model.base import Annotation
 from transformers import pipeline
 
 # NER pipeline that outputs token and NER, score
-model_path = './local_kb_bert_ner/' if os.path.isdir(
-    './local_kb_bert_ner') else 'KB/bert-base-swedish-cased-ner'
+model_path = 'local_kb_bert_ner/' if os.path.isdir(
+    'local_kb_bert_ner') else 'KB/bert-base-swedish-cased-ner'
+print('model path', model_path)
 ner = pipeline(
     task='ner',
     model=model_path,
