@@ -2,7 +2,7 @@
 
 This git repository contains [ELG compatible](https://european-language-grid.readthedocs.io/en/stable/all/A3_API/LTInternalAPI.html) Flask based REST API for the BERT base fine-tuned for Swedish NER
 
-[Swedish KB-NER](https://github.com/Kungbib/swedish-bert-models) contains a list of BERT and ALBERT base fine-tuned models for NLP tasks, of which the model name **"bert-base-swedish-cased-ner"** is fine-tuned on the [SUC 3.0](https://spraakbanken.gu.se/en/resources/suc3) datatset for NER task and this ELG API was developed based on it.
+[KB Swedish bert models](https://github.com/Kungbib/swedish-bert-models) contains a list of BERT and ALBERT base fine-tuned models for NLP tasks, of which the model name **"bert-base-swedish-cased-ner"** is fine-tuned on the [SUC 3.0](https://spraakbanken.gu.se/en/resources/suc3) datatset for NER task and this ELG API was developed based on it.
 Original author: The National Library of Sweden / KBLab, published under CC0 license.
 
 
