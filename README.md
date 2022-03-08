@@ -18,17 +18,8 @@ python3 -m pip install -r requirements.txt
 ```
 
 The model can be downloaded to local (optional), because the transformers library downloads and caches the model anyway.
-```python shell
-from transformers import pipeline
-ner = pipeline(
-    task='ner',
-    model='KB/bert-base-swedish-cased-ner,
-    tokenizer='KB/bert-base-swedish-cased-ner,
-    grouped_entities=True,
-)
-# Save pipeline
-path = 'local_kb_bert_ner'
-ner.save_pretrained(path)
+```
+python3 load_model.py
 ```
 
 Run the development mode flask app
