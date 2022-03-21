@@ -64,7 +64,7 @@ Content-type : application/json
 #### BODY
 
 For text request
-```json
+```
 {
   "type":"text",
   "content": text to be analyzed for NER task
@@ -72,7 +72,7 @@ For text request
 ```
 #### RESPONSE
 
-```json
+```
 {
   "response":{
     "type":"annotations",
