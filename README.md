@@ -34,7 +34,7 @@ docker build -t kb-ner-elg .
 ```
 
 
-Or pull directly ready-made image `docker pull lingsoft/kb-ner:tagname`.
+Or pull directly ready-made image `docker pull lingsoft/kb-bert-ner-sv:tagname`.
 
 ## Deploying the service
 
